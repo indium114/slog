@@ -25,7 +25,7 @@
 
         packages.slag = pkgs.buildGoModule {
           pname = "slag";
-          version = "0.1.0";
+          version = "0.1.1";
 
           src = self;
 
