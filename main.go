@@ -50,3 +50,5 @@ func Hint(text string, a ...any) {
 func Query(text string, a ...any) {
 	genericPrint(internal.QueryText, text, a...)
 }
+
+func main() {}
