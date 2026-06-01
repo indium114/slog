@@ -29,7 +29,7 @@
 
           src = self;
 
-          vendorHash = pkgs.lib.fakeHash;
+          vendorHash = "sha256-7zrX8WG5u11xc6BDMn5wyHk5npn1IQoljZrR7GMD5CM=";
 
           subPackages = [ "." ];
           ldflags = [ "-s" "-w" ];
