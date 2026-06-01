@@ -15,20 +15,6 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 
-builds:
-  - main: ./...
-    env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-      - darwin
-    goarch:
-      - arm64
-      - amd64
-    ldflags:
-      - -s -w
-      - -X github.com/indium114/wares/cmd.Version={{.Version}}
-
 changelog:
   sort: asc
   filters:
