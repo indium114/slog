@@ -1,8 +1,8 @@
-package slog
+package slag
 
 import (
 	"fmt"
-	"github.com/indium114/slog/internal"
+	"github.com/indium114/slag/internal"
 )
 
 // MARK: generic print function so that i don't have to retype so much code :P

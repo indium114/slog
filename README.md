@@ -1,3 +1,3 @@
-# slog
+# slag
 
-**slog** is a simple logging library for **Go**
+**slag** is a simple logging library for **Go**

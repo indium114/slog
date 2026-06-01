@@ -23,8 +23,8 @@
           ];
         };
 
-        packages.slog = pkgs.buildGoModule {
-          pname = "slog";
+        packages.slag = pkgs.buildGoModule {
+          pname = "slag";
           version = "0.1.0";
 
           src = self;
@@ -41,9 +41,9 @@
           };
         };
 
-        apps.slog = {
+        apps.slag = {
           type = "app";
-          program = "${self.packages.${pkgs.stdenv.hostPlatform.system}.slog}/bin/slog";
+          program = "${self.packages.${pkgs.stdenv.hostPlatform.system}.slag}/bin/slag";
         };
       });
 }

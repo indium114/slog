@@ -1,4 +1,4 @@
-module github.com/indium114/slog
+module github.com/indium114/slag
 
 go 1.26.1
 

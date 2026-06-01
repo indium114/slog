@@ -1,5 +1,5 @@
 build:
-    nix build .#slog
+    nix build .#slag
 
 run:
     go run .
