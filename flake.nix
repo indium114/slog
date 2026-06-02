@@ -36,7 +36,7 @@
 
           meta = with pkgs.lib; {
             description = "A logging library for Go";
-            license = licenses.mit;
+            license = licenses.unlicense;
             platforms = platforms.all;
           };
         };
